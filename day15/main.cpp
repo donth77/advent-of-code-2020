@@ -28,6 +28,6 @@ int speak_sequence(int finalTurn) {
 
 int main() {
   cout << "Part 1\n" << speak_sequence(2020) << endl;
-  cout << "Part 2\n" << speak_sequence(30000000) << endl; 
+  cout << "\nPart 2\n" << speak_sequence(30000000) << endl; 
   return 0;
 }

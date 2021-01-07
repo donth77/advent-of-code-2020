@@ -24,4 +24,4 @@ def speakSequence(finalTurn):
 
 
 print(f'Part 1\n{speakSequence(2020)}')
-print(f'Part 2\n{speakSequence(30000000)}')
+print(f'\nPart 2\n{speakSequence(30000000)}')

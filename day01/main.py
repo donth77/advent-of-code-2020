@@ -25,7 +25,7 @@ for i in range(len(accounting_entries) - 1):
         complement = target_sum - curr_sum
         if complement in trip_set:
             print(
-                f'Part 2\n{complement * accounting_entries[i] * accounting_entries[j]}')
+                f'\nPart 2\n{complement * accounting_entries[i] * accounting_entries[j]}')
             break
         else:
             trip_set.add(accounting_entries[j])

@@ -35,4 +35,4 @@ for i, (op, value) in enumerate(instructions):
         newInstructions = instructions[:i] + swappedOp + instructions[i+1:]
         accValue, hasLoop = execute(newInstructions)
         if not hasLoop:
-            print(f'Part 2\n{accValue}')
+            print(f'\nPart 2\n{accValue}')
